@@ -1,0 +1,217 @@
+body {
+    margin: 0 auto;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 92%;
+    color: rgb(38,38,38);
+  }
+#header{
+    display: block;
+    margin-left: 150px;
+    padding: 0px 10px 0px 10px;
+}
+#left_side{
+    float: left;
+    margin: 0px 0px 20px 0px;
+}
+#microsoft_logo{
+    position: absolute;
+    width: 110px;
+    top: 20px;
+    left: 80px;
+    margin-top: -5px;
+}
+a{
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: inherit;
+}
+a:hover, button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+a:active{
+    border: 1px dashed rgb(0, 0, 0);
+}
+nav a{
+    font-size: 13px;
+    margin-right: 10px;
+    color: rgb(38,38,38);
+}
+#right_side{
+    float: right;
+}
+#dropdown{
+    display: inline-block;
+}
+#right_side button{
+    height: 50px;
+    margin-right: -10px;
+    padding: 0 20px 0 20px;
+    border: none;
+    background-color: inherit;
+}
+.dropdown_content{
+    display: none;
+    border: 1px solid #ccc;
+    position: absolute;
+    width: 80%;
+    left: 130px;
+    top: 50px;
+    z-index: 1;
+    font-size: 12px;
+}
+.dropdown_content h3{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.map{
+    display: none;
+    position: absolute;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    left: 130px;
+    top: 370px;
+    z-index: 1;
+    font-size: 12px;
+    padding-top: 10px;
+}
+#dropdown:hover .dropdown_content{
+    display: block;
+    background-color: rgb(242,242,242);
+}
+#dropdown:hover #btn{
+    text-decoration: underline;
+    background-color: rgb(242,242,242);
+    border: 1px dashed rgb(0, 0, 0);
+}
+#dropdown:hover .map{
+    display: block;
+    background-color: rgb(230,230,230);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.column{
+    float: left;
+    width: 12%;
+    margin: 0 0 0 20px;
+    padding: 15px;
+}
+.column a{
+    display: block;
+    text-align: left;
+    padding: 10px;
+}
+#search{
+    float: right;
+}
+.search_input{
+    display: none;
+    width: 200px;
+}
+#search:hover .search_input, #search:focus .search_input, #search:active .search_input{
+    display: inline-block;
+}
+.login{
+    float:right;
+}
+.login i{
+    color: rgb(135,135,135);
+    padding: 5px;
+    border: 1px solid rgb(135,135,135);
+    border-radius: 100%;
+}
+
+.main_365:hover a{
+    text-decoration: none;
+}
+#text_365{
+    display: block;
+    width: 500px;
+    position: absolute;
+    top: 190px;
+    left: 130px;
+}
+#text_365 h2{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+#text_365 p{
+    font-size: 15px;
+}
+#text_365 button{
+    height: 40px;
+    margin: 10px 20px 0 0;
+    float: left;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#text_365 button a{
+    margin: 0px;
+    padding-left: 5px;
+    text-align: center;
+}
+#btn_365_6{
+    background-color: black;
+    color:white;
+}
+#btn_365_1{
+    background-color: inherit;
+    border: none;
+}
+#text_365 button:active{
+    border: 2px solid black;
+}
+#text_365 a:active{
+    border: none;
+}
+#btn_365_1:active{
+    background-color: #ccc;
+}
+
+.news{
+    width:23%;
+    margin-top: 20px;
+    margin-right: 29px;
+    float: left;
+    display: block;
+}
+.news_left_side{
+    margin-left: 18px;
+}
+.news_right_side{
+    float: right;
+    margin: 20px 0 0 0;
+}
+.news img{
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+}
+.news h3{
+    padding: 0px;
+    margin: 0px;
+}
+.news p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+}
+.news button{
+    margin:20px 0px 0px 0px;
+    padding: 0px;
+    border: none;
+    background-color: inherit;
+    font-size: 15px;
+    color:#0067b8;
+    font-weight: bold;
+}
+.news:hover img{
+    filter: opacity(90%);
+}
+.news:hover a{
+    text-decoration: none;
+}

@@ -1,0 +1,118 @@
+body{
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info{
+    width: 50%;
+    margin: 200px 0 0 110px;
+    float: left;
+}
+.info p{
+    margin: 0 24px;
+    font-size: 33px;
+}
+.authorization{
+    width: 40%;
+    text-align: center;
+    margin: 200px 200px 0 0;
+    float: right;
+    width: 400px;
+}
+#login{
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px #e2e4e6;
+    font-weight: bold;
+}
+input{
+    width: 75%;
+    padding: 10px 16px;
+    margin: 20px 0 0px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+input[type=submit]{
+    background-color:#1877f2;
+    color: white;
+    font-weight: inherit;
+    font-size: medium;
+}
+input[type=submit]:hover{
+    background-color: #1666ce;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#forget_pass{
+    font-size: small;
+    margin: 6px;
+}
+#forget_pass a{
+    color: #1666ce;
+}
+button{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #42b72a;
+}
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+#new_acc{
+    border-top: 1px solid #ccc;
+}
+button:hover, button a:hover{
+    text-decoration: none;
+    background-color: #3da727;
+}
+.new_page{
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.new_page a{
+    color: black;
+}
+.footer{
+    clear: both;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    margin-top: 700px;
+    padding-top: 30px;
+    background-color: white;
+    font-size: small;
+    color: rgb(110, 110, 110);
+}
+.footer ul{
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+#more_functions{
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 5px;
+}
+.footer p{
+    font-size: smaller;
+    position: absolute;
+    left: 239px;
+    bottom: 10px;
+}
