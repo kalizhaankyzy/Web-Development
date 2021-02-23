@@ -1,0 +1,23 @@
+.top-bar{
+    background-color:skyblue;
+    color:rgb(0, 0, 0);    
+    height: 80px;
+}
+.top-bar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+.checkout_btn{
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:inherit;
+}
