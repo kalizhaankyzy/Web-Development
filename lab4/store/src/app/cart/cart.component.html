@@ -1,9 +1,0 @@
-<div class="cart">
-    <h2>My items</h2>
-    <h3 class="clear-btn" (click)="clearAll()">Clear all items <i class="fa fa-trash"></i></h3>
-    <div class="cart-item" *ngFor="let item of items; let i=index;">
-        <p>{{ item.name }}</p>
-        <p>{{ item.price | currency }}</p>
-        <button (click)="deleteItem(i)">Remove</button>
-    </div>
-</div>
