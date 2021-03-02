@@ -1,0 +1,35 @@
+<div class="product-item">    
+    <div class="product-info" *ngIf="product">
+    
+    <img src="{{product.image}}" alt="image of product">
+        <div class="info">
+            <h2><a href="{{product.address}}">{{ product.name }}</a></h2>
+            <h4 *ngIf="product.rating>0"> Rating: {{product.rating}} / Likes: {{product.likes}}  </h4>
+            <h4>Price: {{ product.price | currency }}</h4>
+            <p><strong>Description:</strong> {{ product.description }}</p>
+            <div class="btn">
+                <button (click)="addToCart(product)">
+                    Buy</button>
+                <div class="share_btns">
+                    <button>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">Share</a>
+                    </button>
+                    <button>
+                        <a href="https://web.telegram.org/#/login"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                    </button>
+                    <button>    
+                        <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </button>
+                </div>
+                <button (click)="likeItem(product)">
+                    Like 
+                    <i class="fa fa-heart" style="color:red"></i>
+                </button>
+                <!-- <button style="color: red" (click)="removeItem(product)">
+                    <strong>Remove</strong> 
+                </button> -->
+            </div>
+        </div>
+    
+    </div>
+</div>

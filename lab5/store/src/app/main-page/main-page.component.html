@@ -1,0 +1,18 @@
+<body>
+    <ul [@slideAnimation]="counter">
+        <li *ngFor="let item of slideItems;let i = index">
+          <img  *ngIf="i == counter"  [src]="slideItems[i].src" alt="item.title">
+        </li>
+      </ul>
+      
+    <div class="btns">
+      <button (click)="showPreviousImage()"><i class="material-icons">navigate_before</i></button> 
+      <button (click)="showNextImage()"><i class="material-icons"><span class="nav">navigate_next</span></i></button>
+    </div>
+
+    <div class="categories">
+        <div *ngFor = "let category of categories" [routerLink]="['/categories', category.id]">
+            <h3>{{category.name}}</h3>
+        </div>
+    </div>
+</body>

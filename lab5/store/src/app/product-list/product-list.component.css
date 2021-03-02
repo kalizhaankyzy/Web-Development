@@ -1,0 +1,43 @@
+.product-list{
+    margin-top: 100px;
+    background-color: blue;
+}
+.content{
+    width: 24%;
+    height: 500px;
+    float: left;
+    margin: 0px 5px;
+}
+img{
+    display: block;
+    margin: 8% auto;
+    width: 60%;
+}
+.title{
+    width: 90%;
+    padding-left: 2%;
+}
+.bottom{
+    display:flex;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 0;
+}
+.price h2, .price h4{
+    margin: 0;
+}
+.share_btn{
+   width: 35%;
+   margin-right: 4%;
+   background-color: skyblue;
+   border: 1px solid black;
+   border-radius: 3px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button a{
+    font-size: 120%;
+    padding: 3%;
+}
