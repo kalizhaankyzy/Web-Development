@@ -1,0 +1,26 @@
+fieldset{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset input, fieldset button{
+    margin: 2%;
+    padding: 1%;
+    width: 20%;
+}
+fieldset input{
+    width: 100%;
+}
+.btns{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.btns button{
+    padding: 1%;
+}
+button{
+    /* background-color:rgb(0, 255, 170); */
+    border: 1px solid black;
+}

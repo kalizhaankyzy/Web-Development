@@ -1,0 +1,33 @@
+fieldset{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset input, fieldset button{
+    margin: 2%;
+    padding: 1%;
+    width: 20%;
+}
+fieldset input{
+    width: 100%;
+}
+li{
+    list-style-type: none;
+    padding: 5px;
+}
+#remove_btn{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 100%;
+    border-color: red;
+    margin: 0 10px;
+}
+#remove_btn:hover{
+    background-color: rgb(182, 0, 0);
+    border-color: rgb(182, 0, 0);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
