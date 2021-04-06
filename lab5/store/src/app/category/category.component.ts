@@ -8,16 +8,15 @@ import { categories } from '../modules/categories';
 })
 export class CategoryComponent implements OnInit {
   categories = categories;
-  selectedCategoryName:string;
+  // selectedCategoryName:string;
   constructor(
-    // private categoryService: CategoryService
   ) { }
 
   ngOnInit(): void {
   }
   
-  selectCategory(category){
-    this.selectedCategoryName = category.name;
-    // return this.categoryService.setSelectedCategoryName(category.name);
-  }
+  // selectCategory(category){
+  //   this.selectedCategoryName = category.name;
+  //   // return this.categoryService.setSelectedCategoryName(category.name);
+  // }
 }

@@ -1,12 +1,13 @@
 .product-list{
     margin-top: 100px;
-    background-color: blue;
 }
 .content{
     width: 24%;
     height: 500px;
     float: left;
-    margin: 0px 5px;
+
+    margin: 15px 5px;
+    background-color:white;
 }
 img{
     display: block;
@@ -26,12 +27,17 @@ img{
 .price h2, .price h4{
     margin: 0;
 }
-.share_btn{
-   width: 35%;
-   margin-right: 4%;
-   background-color: skyblue;
-   border: 1px solid black;
-   border-radius: 3px;
+.share_btns{
+    width: 40%;
+    height: 2%;
+    margin-right: 4%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.share_btns button{
+    background-color: skyblue;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 a{
     text-decoration: none;

@@ -28,6 +28,7 @@ export const products = [
       price: 163,
       description: "Get the best productivity from home or at the office with the virtually borderless HP VH240a 23.8-Inch display featuring an ergonomic stand, built-in speakers and an ultra-slim design at a competitively low price point. Great for projects requiring portrait and landscape mode screen rotation, the VH240a also includes a 178° positional viewing angle for the best quality no matter where you sit. You can also mount the display on a wall or arm bracket with a 100m VESA mounting pattern located on the back of the monitor arm. Connect your Windows, Mac, or any laptop featuring an HDMI port with an included HDMI cord. The video card of the connected PC must be capable of supporting 1920 x 1080 at 60 Hz and include 1 HDMI or 1 VGA output to drive the monitor at the preferred mode.",
       rating: 4.7,
+      likes: 111,
       image: 'https://images-na.ssl-images-amazon.com/images/I/71trhuzbhML._AC_SL1500_.jpg',
       address: 'https://www.amazon.com/HP-23-8-inch-Adjustment-Speakers-VH240a/dp/B072M34RQC'
     },
@@ -111,7 +112,7 @@ export const products = [
     {
       categoryId:2,
       id:11,
-      name:"Smart WiFi Light Bulb, LED RGBCW Color Changing, Compatible with Alexa and Google Home Assistant, No Hub Required, A19 E26 Multicolor LUMIMAN 2 Pack",
+      name:"Smart WiFi Light Bulb, LED RGBCW Color Changing, Compatible with Alexa and Google Home Assistant, A19 E26 Multicolor LUMIMAN 2 Pack",
       price: 18.99,
       description:"VOICE CONTROL - LUMIMAN Smart bulb no hub compatible with Alexa Echo (via PlusMinus skill), Echo dot and Google Home Assistant, control the wifi bulb via your voice, No hub required. (e.g. ‘Alexa, set the bedroom to purple’)",
       rating:4.4,

@@ -18,7 +18,6 @@ export class ProductListComponent implements OnInit {
     const routeParams = this.route.snapshot.paramMap;
     const productCategoryFromRoute = Number(routeParams.get('productCategory'));
     this.products = this.productService.getProducts().filter(product => product.categoryId === productCategoryFromRoute);
-
   }
 
 
